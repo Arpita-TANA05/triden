@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title class="titleTag">State Scholarship Portal</title>
+
+  <!-- for development -->
+  <!-- <base href="/">  -->
+
+  <!-- for testing -->
+  <!-- <base href="/ossp_testI/website/"> -->
+  
+  <!-- for staging -->
+  <!-- <base href="/odishascholarship-stg/website/"> -->
+  
+  <!-- for audit -->
+  <!-- <base href="/ossp-ai/website/">  -->
+
+  <!-- for production / live -->
+  <base href="/website/">
+    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Odisha State Scholarship Portal envisioned to bridge the gap between the scholarship providers and scholarship seekers thus, encouraging more students to be in the system.">
+  <meta name="keywords" content="State Scholarship Portal,Scholarship, State Scholarship, Schemes , Eligibility, Student Scholarship">
+  <meta name="author" content="State Scholarship Portal">
+  <meta name="google-site-verification" content="" />
+  <meta name="url" content="https://scholarship.odisha.gov.in"/>
+  <meta name="subject" content="State Scholarship Portal"/>
+  <meta name="copyright" content="State Scholarship Portal / 2020"/>
+  <meta name="robots" content="ALL" />
+  <meta name="topic" content="State Scholarship Portal, Scholarship, Student Scholarship, Biju Patnaik"/>
+  <meta name="summary" content="State Scholarship Portal"/>
+  <meta name="Classification" content="State Scholarship Portal"/>
+  <meta name="directory" content="submission"/>
+  <meta name="category" content="State Scholarship Portal"/>
+  <meta http-equiv="Cache-Control" content="no-cache"/>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-26BX168X1P"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-26BX168X1P'); 
+</script> -->
+
+<link rel="stylesheet" href="styles.16994758972a834b45d6.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.eb83d29f6572848bbfdb.js"></script><script src="polyfills-es5.f9c13a63e830c75e33c9.js" nomodule></script><script src="polyfills.aa75641b93fc46dd787f.js"></script><script src="scripts.0f83e73b02d277bf4da3.js"></script><script src="vendor.8af47842b49935d25bd4.js"></script><script src="main.3b5049d36c49931a4bc3.js"></script></body>
+</html> 

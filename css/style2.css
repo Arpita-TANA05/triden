@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+/* HEADER */
+.nav-section {
+    background: #003366;
+    padding: 15px 0;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-menu .active a {
+    background: #005fa3;
+    padding: 10px 15px;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ADMISSION LAYOUT */
+.admission-layout {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 40px;
+}
+
+.page-title {
+    font-size: 32px;
+    color: #003366;
+}
+
+.title-underline {
+    width: 60px;
+    height: 3px;
+    background: #003366;
+    margin: 10px 0 20px;
+}
+
+.tick-list {
+    margin: 20px 0;
+}
+
+.tick-list li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.tick-list li::before {
+    content: "✔";
+    color: #003366;
+    margin-right: 10px;
+}
+
+/* SIDEBAR */
+.admission-sidebar .sidebar-box {
+    background: #f5f7fa;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 4px solid #003366;
+}
+
+.sidebar-box h4 {
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+/* FOOTER */
+.footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* FADE ANIMATION */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s;
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .admission-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/*========================================= read more=======================================*/
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background: #ffffff;
+}
+
+/* ================= COMMON LAYOUT ================= */
+.width-100 {
+    width: 100%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* ================= HEADER & NAV ================= */
+
+.nav-section {
+    background: #003366;
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 22px 28px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* ACTIVE MENU STYLE (LIKE YOUR IMAGE) */
+.nav-menu li.active {
+    background: #0a4f8f;
+}
+
+.nav-menu li.active a {
+    color: #ffffff;
+}
+
+/* Yellow underline */
+.nav-menu li.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffcc00;
+}
+
+/* Hover effect */
+.nav-menu li:hover {
+    background: #0a4f8f;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    padding: 70px 0;
+}
+
+.light-bg {
+    background: #f6f8fb;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    color: #003366;
+    font-size: 32px;
+}
+
+.underline {
+    width: 70px;
+    height: 3px;
+    background: #ffcc00;
+    margin: 10px auto 0;
+}
+
+.section-lead {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+/* ================= TWO COLUMN ================= */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.two-column.reverse {
+    direction: rtl;
+}
+
+.two-column.reverse > * {
+    direction: ltr;
+}
+
+.two-column img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ================= LIST ================= */
+.custom-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.custom-list li {
+    padding-left: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.custom-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* ================= FACILITY CARD ================= */
+.facility-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.facility-icon {
+    font-size: 40px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+/* ================= ANIMATION ================= */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #003366;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    .width-25,
+    .width-75 {
+        width: 100%;
+    }
+
+    .main-nav {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+        font-size: 26px;
+    }
+}
+
+
+
+
+
+
+/*=====================contact us ===============================*/
+/* ===========================
+   CONTACT PAGE
+=========================== */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contact-info i {
+    color: #2563eb;
+    margin-right: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5f5;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
