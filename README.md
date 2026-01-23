@@ -1,3 +1,2 @@
 # triden
 College website
-uv
